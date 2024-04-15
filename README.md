@@ -4,25 +4,25 @@ The goal of this machine learning project is to develop a predictive model that 
 # Goal & Objectives
 You need to use machine learning algorithms, and aim to analyze these financial attributes and build a predictive model that can classify companies as either financially healthy or at risk of bankruptcy. By leveraging historical financial data and company performance metrics, this model will help investors, financial analysts, and stakeholders identify early warning signs of financial distress and make informed decisions to mitigate risks.
 # Data Dictionary
-ROA(C) %before interest and depreciation after-tax: Return On Total Assets(C) 
-ROA(A) % before interest and depreciation after-tax: Return On Total Assets(A)
-ROA(B) % before interest and depreciation after tax: Return On Total Assets(B)
-Operating Gross Margin: Gross Profit/Net Sales
-Realized Sales Gross Margin: Realized Gross Profit/Net Sales
-Operating Profit Rate: Operating Income/Net Sales
-Pre-tax net Interest Rate: Pre-Tax Income/Net Sales 
-After-tax net Interest Rate: Net income/Net Sales
-Non-industry Income and expenditure/revenue: Net Non-operating Income Ratio
-Continuous interest rate (after tax): Net Income-Exclude Disposal Gain or Loss/Net Sales
-Operating Expense Rate: Operating Expenses/Net Sales
-Research and development expense rate: (Research and Development Expenses)/Net Sales
-Cash flow rate Cash Flow from Operating/Current Liabilities
-Interest-bearing debt interest rate: Interest-bearing Debt/Equity
-Tax rate (A): Effective Tax Rate
-16. Net Value Per Share (B): Book Value Per Share(B)
-Net Value Per Share (A): Book Value Per Share(A)
-Net Value Per Share (C): Book Value Per Share(C)
-Persistent EPS(Earning Per share) in the Last Four quarters : EPS-Net Income
+1) ROA(C) %before interest and depreciation after-tax: Return On Total Assets(C)
+2) ROA(A) % before interest and depreciation after-tax: Return On Total Assets(A)
+3) ROA(B) % before interest and depreciation after tax: Return On Total Assets(B)
+4) Operating Gross Margin: Gross Profit/Net Sales
+5) Realized Sales Gross Margin: Realized Gross Profit/Net Sales
+6) Operating Profit Rate: Operating Income/Net Sales
+7) Pre-tax net Interest Rate: Pre-Tax Income/Net Sales
+8) After-tax net Interest Rate: Net income/Net Sales
+9) Non-industry Income and expenditure/revenue: Net Non-operating Income Ratio
+10) Continuous interest rate (after tax): Net Income-Exclude Disposal Gain or Loss/Net Sales
+11) Operating Expense Rate: Operating Expenses/Net Sales
+12) Research and development expense rate: (Research and Development Expenses)/Net Sales
+13) Cash flow rate Cash Flow from Operating/Current Liabilities
+14) Interest-bearing debt interest rate: Interest-bearing Debt/Equity
+15) Tax rate (A): Effective Tax Rate
+16) Net Value Per Share (B): Book Value Per Share(B)
+17) Net Value Per Share (A): Book Value Per Share(A)
+18) Net Value Per Share (C): Book Value Per Share(C)
+19) Persistent EPS(Earning Per share) in the Last Four quarters : EPS-Net Income
 Cash Flow (Movement of money in and out)Per Share
 Revenue Per Share (Euro): Sales Per Share
 Operating Profit Per Share (Euro): Operating Income Per Share 
@@ -102,8 +102,8 @@ Equity to Liability.The Equity to Liability Ratio, also known as the Equity Rati
 # Bankrupt Class label 1: Yes, 0: No – Target Column
 
 # Data Structure
-No_of_columns – 92 Nos
-No_of_Rows – 6819 Nos
+> No_of_columns – 92 Nos
+> No_of_Rows – 6819 Nos
 
 # Applying Models
 1) RandomForest
