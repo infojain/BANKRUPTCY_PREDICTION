@@ -4,7 +4,7 @@ The goal of this machine learning project is to develop a predictive model that 
 # Goal & Objectives
 You need to use machine learning algorithms, and aim to analyze these financial attributes and build a predictive model that can classify companies as either financially healthy or at risk of bankruptcy. By leveraging historical financial data and company performance metrics, this model will help investors, financial analysts, and stakeholders identify early warning signs of financial distress and make informed decisions to mitigate risks.
 # Data Dictionary
-ROA(C) %before interest and depreciation after-tax: Return On Total Assets(C)  
+ROA(C) %before interest and depreciation after-tax: Return On Total Assets(C) 
 ROA(A) % before interest and depreciation after-tax: Return On Total Assets(A)
 ROA(B) % before interest and depreciation after tax: Return On Total Assets(B)
 Operating Gross Margin: Gross Profit/Net Sales
